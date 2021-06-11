@@ -34,8 +34,8 @@ export default function RustJobsPage() {
     <Layout theme="light">
       <SEO title={intl.formatMessage({ id: 'rust-jobs-page-seo' })} />
       <section className="bg-hero-rustJobs bg-cover bg-center bg-fixed -mt-24 xl:-mt-36 md:-mb-32">
-        <div className="md:h-screen">
-          <div className="container h-full text-center pt-64 md:pt-0 pb-16 px-2 md:flex md:flex-col md:justify-center md:items-center md:w-2/3">
+        <div className="md:h-screen md:min-h-heroMinLg">
+          <div className="container h-full text-center pt-40 md:pt-0 pb-16 px-2 md:flex md:flex-col md:justify-center md:items-center md:w-2/3">
             <img className="mx-auto w-96 md:w-4/6 h-auto py-10" src={parityRustImage} alt="Parity Loves Rust Image" />
             <h4 className="text-white font-normal text-2xl md:text-4xl mb-2">
               {intl.formatMessage({ id: 'rust-jobs-page-title-one' })}

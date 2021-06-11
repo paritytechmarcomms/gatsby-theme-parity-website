@@ -25,7 +25,7 @@ export default function BitcoinPage({ data }: BitcoinPageProps) {
     <Layout>
       <SEO title="Parity Bitcoin Client" />
       <section className="md:bg-hero-pattern bg-cover bg-center bg-fixed -mt-32 xl:-mt-36 md:-mb-32">
-        <div className="md:h-screen">
+        <div className="md:h-screen md:min-h-heroMinLg">
           <div className="container h-full text-center max-w-4xl pt-48 md:pt-0 pb-16 px-2 md:flex md:flex-col md:justify-center md:items-center md:w-2/3">
             <img className="mx-auto w-64 h-auto py-4" src={parityBitcoinLogo} alt="Parity Bitcoin Client Logo" />
             <h4 className="font-normal text-2xl md:text-3xl mx-auto py-10 max-w-lg">

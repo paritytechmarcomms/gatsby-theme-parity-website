@@ -11,7 +11,7 @@ export default function PolkadotPage() {
   return (
     <Layout theme="">
       <section className="md:bg-hero-pattern bg-cover bg-center bg-fixed -mt-24 xl:-mt-36 md:-mb-32">
-        <div className="md:h-screen">
+        <div className="md:h-screen md:min-h-heroMinLg">
           <div className="container h-full text-center max-w-4xl pt-52 md:pt-0 pb-16 px-2 md:flex md:flex-col md:justify-center md:items-center md:w-2/3">
             <img className="mx-auto w-44 h-auto py-4" src={polkadotLogo} alt="Polkadot Logo" />
             <h3 className="font-light md:text-5xl lg:text-6xl py-4">

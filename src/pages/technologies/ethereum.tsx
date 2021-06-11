@@ -14,7 +14,7 @@ export default function EthereumPage() {
     <Layout>
       <SEO title="Parity Ethereum Client - OpenEthereum" />
       <section className="md:bg-hero-pattern bg-cover bg-center bg-fixed -mt-24 xl:-mt-36 md:-mb-16">
-        <div className="md:h-screen">
+        <div className="md:h-screen md:min-h-heroMinLg">
           <div className="container h-full text-center max-w-3xl pt-40 md:pt-0 md:pb-0 pb-16 px-2 md:flex md:flex-col md:justify-center md:w-2/3">
             <h3 className="font-light md:text-5xl lg:text-6xl py-4">
               {intl.formatMessage({ id: 'ethereum-page-hero-title' })}
