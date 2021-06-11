@@ -20,8 +20,8 @@ export default function BlogPage(props: BlogPageProps) {
   return (
     <Layout theme="light">
       <SEO title={intl.formatMessage({ id: 'blog-page-seo' })} />
-      <section className="block h-hero">
-        <div className="absolute min-h-hero max-h-96 z-0 w-full top-0 left-0 bg-hero-blogPage bg-cover bg-center"></div>
+      <section className="block h-hero min-h-heroMin">
+        <div className="absolute h-hero min-h-heroMin z-0 w-full top-0 left-0 bg-hero-blogPage bg-cover bg-center"></div>
         <div className="container relative text-center text-white h-5/6 flex flex-col justify-center">
           <h3 className="text-white font-normal md:text-5xl md:mb-8">
             {intl.formatMessage({ id: 'blog-page-title' })}

@@ -25,7 +25,7 @@ export default function ParitySigner({ data }: ParitySignerProps) {
     <Layout theme="light">
       <SEO title={intl.formatMessage({ id: 'signer-page-seo' })} />
       <section className="bg-hero-signer bg-cover bg-center -mt-24 xl:-mt-32 md:-mb-12">
-        <div className="md:h-screen">
+        <div className="md:h-screen md:min-h-heroMinLg">
           <div className="container h-full max-w-4xl pt-36 md:pt-0 pb-16 px-2 flex flex-col justify-center items-center md:items-start md:w-2/3">
             <img className="mx-auto md:mx-0 w-64 h-auto py-4" src={signerLogo} alt="Parity Signer Logo" />
             <h3 className="text-white font-light text-center md:text-left md:text-5xl lg:text-6xl py-4 max-w-2xl">
