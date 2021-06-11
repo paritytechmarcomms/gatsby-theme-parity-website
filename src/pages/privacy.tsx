@@ -603,16 +603,12 @@ export default function PrivacyPolicyPage() {
                 <tbody>
                   <tr>
                     <td className="p-4 text-parityBlack border border-black align-top">
-                      <code className="bounty-code">__cfduid</code>
+                      <code className="bounty-code">__cflb</code>
                     </td>
                     <td className="p-4 text-parityBlack border border-black align-top ">
-                      This cookie is set by a third party, CloudFlare (a content delivery network service), and is
-                      necessary for the Sites to function properly as it is used to identify trusted web traffic. It
-                      does not correspond to any user ID in the web application, nor does the cookie store any
-                      personally identifiable information. In addition, it’s a “first-party” cookie bound to Parity’s
-                      hostname and not accessible from anywhere else, which makes it unusable for tracking purposes.
-                      Where technically possible it is also marked as “Secure” which would only allow its transmission
-                      over encrypted channels. For more information please see:{' '}
+                      This cookie is a load balancing cookie set by a third party, CloudFlare (a content delivery
+                      network service), and is necessary for the Sites to function properly as it is used to optimise
+                      network resource usage.For more information please see:{' '}
                       <a
                         className="text-parityPink"
                         href="https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-"
@@ -620,7 +616,9 @@ export default function PrivacyPolicyPage() {
                         https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-
                       </a>
                     </td>
-                    <td className="p-4 text-parityBlack border border-black align-top">After 1 year</td>
+                    <td className="p-4 text-parityBlack border border-black align-top">
+                      This cookie is a session cookie that lasts anywhere from several seconds up to 24 hours.
+                    </td>
                   </tr>
                   <tr>
                     <td className="p-4 text-parityBlack border border-black align-top">
@@ -648,120 +646,6 @@ export default function PrivacyPolicyPage() {
                       After 24 hours
                       <br />
                       After 10 minutes
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 text-parityBlack border border-black align-top">
-                      <code className="bounty-code">_twitter_sess</code>
-                      <br />
-                      <code className="bounty-code">ads_prefs</code>
-                      <br />
-                      <code className="bounty-code">auth_token</code>
-                      <br />
-                      <code className="bounty-code">btc_opt_in</code>
-                      <br />
-                      <code className="bounty-code">csrf_id</code>
-                      <br />
-                      <code className="bounty-code">csrf_same_site</code>
-                      <br />
-                      <code className="bounty-code">csrf_same_site_set</code>
-                      <br />
-                      <code className="bounty-code">ct0</code>
-                      <br />
-                      <code className="bounty-code">daa</code>
-                      <br />
-                      <code className="bounty-code">des_opt_in</code>
-                      <br />
-                      <code className="bounty-code">dnt</code>
-                      <br />
-                      <code className="bounty-code">eu_cn</code>
-                      <br />
-                      <code className="bounty-code">external_referer</code>
-                      <br />
-                      <code className="bounty-code">gt</code>
-                      <br />
-                      <code className="bounty-code">guest_id</code>
-                      <br />
-                      <code className="bounty-code">kdt</code>
-                      <br />
-                      <code className="bounty-code">lang</code>
-                      <br />
-                      <code className="bounty-code">muc</code>
-                      <br />
-                      <code className="bounty-code">personalization_id</code>
-                      <br />
-                      <code className="bounty-code">remember_checked_on</code>
-                      <br />
-                      <code className="bounty-code">rweb_optin</code>
-                      <br />
-                      <code className="bounty-code">tfw_exp</code>
-                      <br />
-                      <code className="bounty-code">twid</code>
-                    </td>
-                    <td className="p-4 text-parityBlack border border-black align-top">
-                      These cookies are set when you visit our Sites while logged in to your Twitter account. This data
-                      allows us to identify our audience and deliver targeted ads based on user’s interests and
-                      interactions within Twitter and our Sites. These cookies allow us to reach you through your use of
-                      Twitter and provide you with relevant information, products and news about us and what we are
-                      building at Parity. The cookies placed by Twitter will include those listed here. Note that the
-                      cookies, their type and the length of their storage may vary depending on different factors such
-                      as the browser you use, your browser settings, add-ons and blockers you have installed, etc. You
-                      have the option to clear all cookies by deleting them in your browser. <br />
-                      <br />
-                      For more information about how Twitter safeguards your data and approaches privacy please see:{' '}
-                      <a
-                        className="text-parityPink"
-                        href="https://business.twitter.com/en/help/ads-policies/other-policy-requirements/interest-based-opt-out-policy.html"
-                      >
-                        https://business.twitter.com/en/help/ads-policies/other-policy-requirements/interest-based-opt-out-policy.html
-                      </a>
-                    </td>
-                    <td className="p-4 text-parityBlack border border-black align-top">
-                      After session
-                      <br />
-                      After 5 years
-                      <br />
-                      After 5 years
-                      <br />
-                      After 4 months
-                      <br />
-                      After 8 hours
-                      <br />
-                      After 1 year
-                      <br />
-                      After 1 year
-                      <br />
-                      After 8 hours
-                      <br />
-                      End of the month
-                      <br />
-                      After 11 months
-                      <br />
-                      After 5 years
-                      <br />
-                      After 11 months
-                      <br />
-                      After 1 week
-                      <br />
-                      After 3 hours
-                      <br />
-                      After 2 years
-                      <br />
-                      After 1 year, 7 months
-                      <br />
-                      After session
-                      <br />
-                      After 2 years
-                      <br />
-                      After 2 years
-                      <br />
-                      After 5 years
-                      <br />
-                      After 1 year
-                      <br />
-                      After 2 weeks
-                      <br />
-                      After 5 years
                     </td>
                   </tr>
                 </tbody>
@@ -829,44 +713,14 @@ export default function PrivacyPolicyPage() {
               withdraw your consent at any time (Art. 7 para. 3 GDPR).
             </p>
             <p className="text-textDark  leading-normal">
-              <strong>Twitter’s Universal Website Tag</strong>
+              <strong>Simple Analytics</strong>
             </p>
             <p className="text-textDark  leading-normal">
-              Our Sites use Twitter’s Universal Website Tag, a tool developed by Twitter, Inc., 1355 Market Street,
-              Suite 900, San Francisco, CA 94103 USA, www.twitter.com (“Twitter Universal Website Tag” or “Twitter”).
-              Twitter employs cookies that are stored to your computer or device in order to facilitate an analysis of
-              your interaction with our Sites and any of our promotional messages on Twitter. Twitter also uses
-              conversion mechanisms to analyse how users interact and respond to the tags we create and to target
-              specific audiences.
-            </p>
-            <p className="text-textDark  leading-normal">
-              Twitter may also transfer this information to third parties where required to do so by law or where such
-              third parties process this data on Twitter’s behalf. You can prevent cookies from being used at any time
-              by changing the settings in our cookie consent management tool which is present on all pages of our Sites
-              as noted elsewhere in this privacy policy. You should be aware, however, that by doing so you may not be
-              able to make full use of all the functions of our Sites.
-            </p>
-            <p className="text-textDark  leading-normal">
-              Twitter also offers a range of customisable settings available to you in your Twitter account that give
-              you more control over what data Twitter can collect through your use of their services. You can opt-out of
-              the use of this tool by adjusting the “Personalisation and Data” settings in your Twitter account and
-              modifying the settings in “Personalised Ads”. For more information on how to opt out through your Twitter
-              account, please visit Twitter’s website or contact their help support. You can find additional information
-              on how to customise account settings on Twitter at the following link:{' '}
-              <a href="https://help.twitter.com/en/safety-and-security/privacy-controls-for-tailored-ads">
-                https://help.twitter.com/en/safety-and-security/privacy-controls-for-tailored-ads
-              </a>
-            </p>
-            <p className="text-textDark  leading-normal">
-              For the cases in which personal data is transferred from the European Union, EFTA States, or the United
-              Kingdom, Twitter ensures an adequate level of protection for the rights of data subjects based on the
-              adequacy of the receiving country’s data protection laws or by entering into contractual protections with
-              the recipient of the data.
-            </p>
-            <p className="text-textDark  leading-normal">
-              Twitter cookies are only used after we have obtained your consent (via the consent management tool on the
-              Parity website, see above) in accordance with Art. 6 para. 1 s. 1 lit. a GDPR. You can withdraw your
-              consent at any time (Art. 7 para. 3 GDPR).
+              To get information about the behavior of our visitors, we use Simple Analytics. This analytics software
+              gives us insight about our visitors only in general. It does not give us any insights or information about
+              individuals as it does not track visitors and does not store any personal identifiable information. Go to
+              Simple Analytics documentation to find out what Simple Analytics collects (and most importantly what they
+              don’t).
             </p>
             <p className="text-textDark  leading-normal">
               <strong>Changes to our privacy policy</strong>
@@ -891,7 +745,7 @@ export default function PrivacyPolicyPage() {
               <a href="https://www.datenschutz-berlin.de">https://www.datenschutz-berlin.de</a> or{' '}
               <a href="https://ico.org.uk">https://ico.org.uk</a>
             </p>
-            <p className="text-textDark  leading-normal">This privacy policy was last updated 10 December 2020.</p>
+            <p className="text-textDark  leading-normal">This privacy policy was last updated 11 June 2021.</p>
             <h2 className="py-12">Supplemental privacy notice for event participants</h2>
             <p className="text-textDark  leading-normal">
               ‘We’, ‘our’, ‘Parity’ – refers to Parity Technologies Limited.

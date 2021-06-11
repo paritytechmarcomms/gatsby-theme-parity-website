@@ -49,6 +49,9 @@ module.exports = {
               googleAnalytics: {
                 description: 'Collection of information about how visitors use our website',
               },
+              cloudflare: {
+                description: 'Protection against DDoS attacks',
+              },
               decline: 'Deactivate all',
               ok: 'Accept',
               acceptAll: 'Accept all',
@@ -93,6 +96,12 @@ module.exports = {
               required: false,
               optOut: false,
               onlyOnce: false,
+            },
+            {
+              name: 'cloudflare',
+              title: 'Cloudflare',
+              purposes: ['security'],
+              required: true,
             },
           ],
         },
