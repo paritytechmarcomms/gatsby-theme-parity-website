@@ -43,6 +43,7 @@ module.exports = {
       },
       minHeight: {
         hero: '70vh',
+        heroMin: '500px',
       },
       spacing: {
         84: '22rem',

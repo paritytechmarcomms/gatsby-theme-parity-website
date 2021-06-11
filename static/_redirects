@@ -21,6 +21,41 @@
 /jutta-steiner/ /about/jutta-steiner/
 /gavin-wood/ /about/gavin-wood/
 
+# Blog Page Redirects
+/blog/page/ /blog
+/blog/page/2 /blog
+/blog/page/3 /blog
+/blog/page/4 /blog
+/blog/page/5 /blog
+/blog/page/6 /blog
+/blog/page/7 /blog
+/blog/page/8 /blog
+/blog/page/9 /blog
+/blog/page/10 /blog
+/blog/page/11 /blog
+/blog/page/12 /blog
+/blog/page/13 /blog
+/tag/ink/page/	/blog/tag/ink
+/tag/event/page/ /events/
+/tag/people-of-parity/page/	/blog/tag/people-of-parity
+/tag/light-js/page/	/blog/tag/light-js
+/tag/zcash/page/	/blog/tag/zcash
+/tag/custom-solutions/page/	/blog/tag/custom-solutions
+/tag/parity-bridge/page/	/blog/tag/parity-bridge
+/tag/partnerships/page/	/blog/tag/partnerships
+/tag/parity-signer/page/	/blog/tag/parity-signer
+/tag/community/page/	/blog/tag/community
+/tag/picops/page/	/blog/tag/picops
+/tag/wasm/page/	/blog/tag/wasm
+/tag/polkadot/page/	/blog/tag/polkadot
+/tag/releases/page/	/blog/tag/releases
+/tag/parity-fether/page/	/blog/tag/parity-fether
+/tag/company-and-culture/page/	/blog/tag/company-and-culture
+/tag/parity-ethereum/page/ /blog/tag/parity-ethereum
+/tag/rust/page/	/blog/tag/rust
+/tag/parity-substrate/page/	/blog/tag/parity-substrate
+/tag/security/page/	/blog/tag/security
+
 # Blog Author Links
 /author/parity-technologies/	/blog/author/parity-technologies/
 /author/zach/	/blog/author/zach-cavanaugh
