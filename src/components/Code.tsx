@@ -2,7 +2,7 @@ import React from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import Prism from 'prism-react-renderer/prism';
 
-import theme from 'prism-react-renderer/themes/nightOwlLight';
+import theme from 'prism-react-renderer/themes/github';
 
 (typeof global !== 'undefined' ? global : window).Prism = Prism;
 
