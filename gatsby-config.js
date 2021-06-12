@@ -122,10 +122,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-simple-analytics',
       options: {
-        eventsGlobal: 'sa',
-        events: true,
         trackPageViews: true,
-        domain: 'api-sa.parity.io/latest.js',
       },
     },
     'gatsby-plugin-postcss',

@@ -8,7 +8,7 @@ export default function HeroAbout() {
 
   return (
     <section className="block h-hero min-h-heroMin">
-      <div className="absolute h-hero min-h-heroMin -z-10 w-full top-0 left-0 bg-hero-about bg-cover bg-center"></div>
+      <div className="absolute h-hero min-h-heroMin w-full top-0 left-0 bg-hero-about bg-cover bg-center"></div>
       <div className="container relative text-center text-white h-5/6 flex flex-col justify-center">
         <h3 className="text-white font-normal md:text-5xl md:mb-8">
           {intl.formatMessage({ id: 'about-page-hero-title' })}
