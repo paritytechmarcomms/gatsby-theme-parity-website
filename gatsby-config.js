@@ -175,7 +175,7 @@ module.exports = {
                   date: edge.node.frontmatter.date_published,
                   url: site.siteMetadata.siteUrl + '/' + edge.node.frontmatter.slug,
                   guid: site.siteMetadata.siteUrl + '/' + edge.node.frontmatter.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.body }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 });
               });
             },
@@ -185,6 +185,8 @@ module.exports = {
                   edges {
                     node {
                       excerpt
+                      html
+                      timeToRead
                       frontmatter {
                         tags
                         slug
@@ -193,7 +195,6 @@ module.exports = {
                         author
                         blogTitle
                       }
-                      body
                     }
                   }
                 }
