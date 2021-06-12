@@ -49,6 +49,7 @@ The goal of `light.js` is simple:
 
 Concretely, it means:
 
+``` js
     // Before, with web3.js
     
     const contract = web3.eth.Contract(ABI, '0x00..ff');
@@ -70,7 +71,7 @@ Concretely, it means:
     makeContract(ABI, '0x00..ff')
     	.balanceOf$('0xabc')
     	.subscribe(console.log); // Logs the result when balance changes
-    
+```  
 
 ## **High-level reactive programming**
 
@@ -104,22 +105,42 @@ The best way to start hacking with \`light.js \`is to:
 * follow our 6-step tutorial: [https://parity-js.github.io/light.js/guides/tutorial1-set-up-a-light-client.html](https://parity-js.github.io/light.js/guides/tutorial1-set-up-a-light-client.html "https://parity-js.github.io/light.js/guides/tutorial1-set-up-a-light-client.html")
 
 An important thing to note is that while `light.js` is optimized for light clients, it will of course work with full nodes, local or remote. In particular, it works out-of-the-box if you have MetaMask installed:
+``` js
+import light, { balanceOf$ } from '@parity/light.js';
 
-    import light, { balanceOf$ } from '@parity/light.js';
-    
-    // Wait for web3.currentProvider to be injected
-    window.addEventListener('load', () => {
-      // Tell light.js to use MetaMask provider
-      light.setProvider(window.web3.currentProvider);
-    
-      balanceOf$('0x123').subscribe(console.log); // Logs the balance
-    });
-    
+// Wait for web3.currentProvider to be injected
+window.addEventListener('load', () => {
+  // Tell light.js to use MetaMask provider
+  light.setProvider(window.web3.currentProvider);
+
+  balanceOf$('0x123').subscribe(console.log); // Logs the balance
+});
+```    
 
 Even if you can't embed a light-client in your app today for whatever reason, `light.js` [works well with remote full nodes](https://parity-js.github.io/light.js/getting-started/does-it-work-with-a-full-node.html), so we do recommend `light.js` for any kind of Dapp. The day you decide to finally switch to a light client, you won’t have to change a single line of code.
 
 If you are writing your Dapp with React, we also provide light.js-react, a tiny library to integrate light.js easily with React apps:
-To see an example of how light.js is used in a real-world app, see how we built Parity Fether on top of it.
+```js
+import * as React from 'react';
+import { balanceOf$ } from '@parity/light.js';
+import light from '@parity/light.js-react';
+
+@light({
+  myBalance: () => balanceOf$('0x123')
+})
+class MyComponent extends React.Component {
+  render() {
+    return (
+      <div>
+        The balance of "0x123" is {this.props.myBalance.toFormat(2)}.
+      </div>
+    );
+  }
+}
+```
+
+
+To see an example of how light.js is used in a real-world app, see how we built [Parity Fether](https://github.com/paritytech/fether) on top of it.
 
 ## Next steps
-light.js is a small step in the direction of our effort to promote the use of decentralised light clients. We would love to hear feedback from developers, so if you have questions or ideas about this library, make sure to post an issue on the Github repo: https://github.com/paritytech/js-libs/tree/master/packages/light.js.
+`light.js` is a small step in the direction of our effort to promote the use of decentralised light clients. We would love to hear feedback from developers, so if you have questions or ideas about this library, make sure to post an issue on the Github repo: https://github.com/paritytech/js-libs/tree/master/packages/light.js.

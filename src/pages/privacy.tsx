@@ -568,21 +568,6 @@ export default function PrivacyPolicyPage() {
               placement of these tracking and tailored audience cookies and provide a visible, clear and easy means for
               revoking that consent at a later date (opt-out) on our Sites.
             </p>
-            <p className="text-textDark eading-normal">
-              Tracking and tailored audiences cookies are used in connection with services provided by third parties,
-              including the following:
-            </p>
-            <ul className="ml-4 text-textDark">
-              <li className="font-normal">
-                Parity uses the Twitter Universal Website Tag developed by Twitter. If users of our Sites are logged
-                into Twitter when using our Sites (and have chosen to opt-in to non-essential cookies on our Sites) then
-                this tool will help us track their actions on our Sites and will allow Twitter to assist us in targeting
-                specific audiences on Twitter. This means we may access aggregated data on how users of our Sites that
-                are logged into Twitter interact with our Sites and our Twitter content. For more information please
-                visit Twitter’s site. Twitter also provides you the option to opt-out by modifying the privacy settings
-                in your Twitter account.
-              </li>
-            </ul>
             <p className="text-textDark  leading-normal">
               Before we use cookies which are not strictly necessary for the operation of our Sites or provision of our
               services we obtain consent from you according to Art. 6 para. 1 s. 1 lit. a GDPR. Please also see the
@@ -745,7 +730,7 @@ export default function PrivacyPolicyPage() {
               <a href="https://www.datenschutz-berlin.de">https://www.datenschutz-berlin.de</a> or{' '}
               <a href="https://ico.org.uk">https://ico.org.uk</a>
             </p>
-            <p className="text-textDark  leading-normal">This privacy policy was last updated 11 June 2021.</p>
+            <p className="text-textDark  leading-normal">This privacy policy was last updated 12 June 2021.</p>
             <h2 className="py-12">Supplemental privacy notice for event participants</h2>
             <p className="text-textDark  leading-normal">
               ‘We’, ‘our’, ‘Parity’ – refers to Parity Technologies Limited.

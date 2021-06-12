@@ -35,26 +35,6 @@
 /blog/page/11 /blog
 /blog/page/12 /blog
 /blog/page/13 /blog
-/tag/ink/page/	/blog/tag/ink
-/tag/event/page/ /events/
-/tag/people-of-parity/page/	/blog/tag/people-of-parity
-/tag/light-js/page/	/blog/tag/light-js
-/tag/zcash/page/	/blog/tag/zcash
-/tag/custom-solutions/page/	/blog/tag/custom-solutions
-/tag/parity-bridge/page/	/blog/tag/parity-bridge
-/tag/partnerships/page/	/blog/tag/partnerships
-/tag/parity-signer/page/	/blog/tag/parity-signer
-/tag/community/page/	/blog/tag/community
-/tag/picops/page/	/blog/tag/picops
-/tag/wasm/page/	/blog/tag/wasm
-/tag/polkadot/page/	/blog/tag/polkadot
-/tag/releases/page/	/blog/tag/releases
-/tag/parity-fether/page/	/blog/tag/parity-fether
-/tag/company-and-culture/page/	/blog/tag/company-and-culture
-/tag/parity-ethereum/page/ /blog/tag/parity-ethereum
-/tag/rust/page/	/blog/tag/rust
-/tag/parity-substrate/page/	/blog/tag/parity-substrate
-/tag/security/page/	/blog/tag/security
 
 # Blog Author Links
 /author/parity-technologies/	/blog/author/parity-technologies/
@@ -83,7 +63,8 @@
 /tag/ink/	/blog/tag/ink
 /tag/event/ /events/
 /tag/people-of-parity/	/blog/tag/people-of-parity
-/tag/light-js/	/blog/tag/light-js
+/tag/light-js/	/blog/tag/lightjs
+/blog/tag/light-js /blog/tag/lightjs
 /tag/zcash/	/blog/tag/zcash
 /tag/custom-solutions/	/blog/tag/custom-solutions
 /tag/parity-bridge/	/blog/tag/parity-bridge
