@@ -10,6 +10,9 @@
 /rustjobs /rust-jobs
 /bugbounty /bug-bounty
 
+#Jobs Redirect
+/apply /jobs
+
 # Technology Section
 /polkadot /technologies/polkadot
 /substrate /technologies/substrate
