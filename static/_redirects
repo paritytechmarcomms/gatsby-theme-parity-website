@@ -12,7 +12,7 @@
 
 #Jobs Redirect
 /apply/?gh_jid=4114920003 https://boards.greenhouse.io/parity/jobs/4114920003
-/apply /jobs
+/jobs/?gh_jid=4114920003 https://boards.greenhouse.io/parity/jobs/4114920003
 
 # Technology Section
 /polkadot /technologies/polkadot
