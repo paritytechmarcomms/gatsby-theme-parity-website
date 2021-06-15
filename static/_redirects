@@ -11,7 +11,8 @@
 /bugbounty /bug-bounty
 
 #Jobs Redirect
-/apply /jobs/#jobboard
+/apply/ gh_jid=:id  https://boards.greenhouse.io/parity/jobs/:id
+
 
 # Technology Section
 /polkadot /technologies/polkadot
