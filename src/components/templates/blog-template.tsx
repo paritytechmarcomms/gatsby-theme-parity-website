@@ -29,7 +29,7 @@ export default function BlogTemplate(props: BlogTemplateProps) {
     <Layout>
       <SEO
         title={props.data.mdx.frontmatter.blogTitle}
-        image={props.data.mdx.frontmatter.image}
+        image={`https://www.parity.io${props.data.mdx.frontmatter.image}`}
         description={props.data.mdx.excerpt}
         author={props.data.mdx.frontmatter.author}
         keywords={props.data.mdx.frontmatter.tags}
