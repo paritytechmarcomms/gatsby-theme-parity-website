@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "title": "test event",
-      "description": "This is test descriptoin",
-      "dateTime": "May 17th, 2021",
-      "location": "Online",
-      "cta": "Join us!",
-      "link": "https://www.google.com",
-      "image": "/images/parity-og-image.jpeg"
-    },
-    {
       "title": "Substrate Seminar",
       "description": "Join our weekly collaborative call where we learn about Substrate together.",
       "dateTime": "Weekly on Tuesday",
