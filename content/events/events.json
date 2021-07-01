@@ -2,11 +2,11 @@
   "events": [
     {
       "title": "Substrate Seminar",
-      "description": "Join our weekly collaborative call where we learn about Substrate together.",
-      "dateTime": "Weekly on Tuesday",
+      "description": "Join the collaborative learning call where we learn about Substrate together!",
+      "dateTime": "Every other Tuesday",
       "location": "ONLINE",
       "cta": "Learn More",
-      "link": "https://www.crowdcast.io/e/substrate-seminar",
+      "link": "https://www.crowdcast.io/e/substrate-seminar?utm_source=parity.io&utm_medium=referral&utm_campaign=crowdcast&utm_content=seminar%20parity&utm_term=parity",
       "image": "/images/substrate-seminar.png"
     }
   ]
