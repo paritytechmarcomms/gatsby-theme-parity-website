@@ -28,7 +28,7 @@ export default function BlogCard(props: EventCardProps) {
           <p className="text-xs text-parityPink mb-0">{dateTime}</p>
           <p className="text-xs mb-0">{location}</p>
         </div>
-        <div className="pt-3 pb-6">
+        <div className="pt-3 pb-6 h-36">
           <p className="font-normal my-0">{title}</p>
           <p className="text-sm font-light my-0">{description}</p>
         </div>
