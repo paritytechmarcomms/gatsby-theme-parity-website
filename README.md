@@ -15,6 +15,7 @@ Important Convention Note
 
 ### Status [Staging](https://staging.parity.io/) 
 (Password protected; ask Parity WebDev Team for details)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a37b450c-3e18-4676-8ec3-e2d370366d43/deploy-status)](https://app.netlify.com/sites/parity-staging/deploys)
 
 ### Production [Live Site](https://www.parity.io)
