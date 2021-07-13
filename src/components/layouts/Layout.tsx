@@ -9,6 +9,7 @@ import HeaderLight from './HeaderLight';
 import Footer from './Footer';
 import ScrollToTop from '../ScrollToTop';
 import Banner from '../Banner';
+import MDXButton from '../MDXButton';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ interface LayoutProps {
 
 const components = {
   a: MdxLink,
+  MDXButton,
 };
 
 export default function Layout(props: LayoutProps) {
